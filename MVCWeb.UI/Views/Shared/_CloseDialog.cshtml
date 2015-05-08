@@ -1,0 +1,33 @@
+﻿@using MVCWeb.UI.Models.Shared
+@using MVCWeb.UI
+
+@inherits ViewBase<CloseModel>
+
+<div>
+    <!-- 
+        Note: Please note that below space has been added to fix an 
+        issue occurs when closing dialog having file upload control
+        which was causing a javascript error.
+    -->
+    &nbsp;
+</div>
+
+<script type="text/javascript">
+
+    $(function () {
+
+        $.App.Dialogs.close();
+
+        @if (Model.CloseAction == CloseAction.CloseAndRedirect)
+        {
+            <text>
+                window.location = "@Html.Raw(Model.Url)";
+            </text>
+        }
+        else if (Model.CloseAction == CloseAction.CloseAndReload)
+        {
+                
+        }
+
+    });
+</script>

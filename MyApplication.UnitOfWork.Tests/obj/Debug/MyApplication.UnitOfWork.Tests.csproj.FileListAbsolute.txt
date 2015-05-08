@@ -1,0 +1,16 @@
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\MyApplication.UnitOfWork.Tests.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\MyApplication.UnitOfWork.Tests.pdb
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\MyApplication.UnitOfWork.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\nunit.framework.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\MyApplication.UnitOfWork.pdb
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\nunit.framework.xml
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\obj\Debug\MyApplication.UnitOfWork.Tests.csprojResolveAssemblyReference.cache
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\obj\Debug\MyApplication.UnitOfWork.Tests.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\obj\Debug\MyApplication.UnitOfWork.Tests.pdb
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\Rhino.Mocks.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\Rhino.Mocks.xml
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\Iesi.Collections.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\NHibernate.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\Iesi.Collections.xml
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\NHibernate.xml
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork.Tests\bin\Debug\MyApplication.UnitOfWork.Tests.dll.config

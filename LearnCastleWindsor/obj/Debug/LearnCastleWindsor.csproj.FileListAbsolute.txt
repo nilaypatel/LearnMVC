@@ -1,0 +1,12 @@
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\bin\Debug\LearnCastleWindsor.exe.config
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\bin\Debug\LearnCastleWindsor.exe
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\bin\Debug\LearnCastleWindsor.pdb
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\bin\Debug\Castle.Core.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\bin\Debug\Castle.Windsor.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\bin\Debug\Castle.Core.xml
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\bin\Debug\Castle.Windsor.xml
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\obj\Debug\LearnCastleWindsor.csprojResolveAssemblyReference.cache
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\obj\Debug\LearnCastleWindsor.exe
+D:\DemoProject\MVCTemplates\LearningTemplates\LearnCastleWindsor\obj\Debug\LearnCastleWindsor.pdb
+D:\DemoProject\MVCTemplates\LearningMVC\LearnCastleWindsor\bin\Debug\LearnCastleWindsor.exe.config
+D:\DemoProject\MVCTemplates\LearningMVC\LearnCastleWindsor\obj\Debug\LearnCastleWindsor.exe

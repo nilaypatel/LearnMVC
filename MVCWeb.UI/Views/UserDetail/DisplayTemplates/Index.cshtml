@@ -1,0 +1,53 @@
+﻿@using MVCWeb.UI.Controllers
+@using MVCWeb.UI.Models.UserDetail
+@using MVCWeb.UI
+
+@inherits ViewBase<Index>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@RenderServerMessage()
+
+<div>
+    <div>
+        UserName
+        <input type="text" name="username" class="username" />
+    </div>
+    <div>
+        <button type="button" class="search">Search</button>
+    </div>
+    <div>
+        <a class="dialog" data-url="@(Url.Action<UserDetailController>(c => c.Edit()))">Modal Dialog</a>
+    </div>
+
+    <div class="list">
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        
+        $("button.search").click(function () {
+            populateList();
+        });
+
+        var populateList = function () {
+
+            var url = $.App.trimQueryString("@(Url.Action<UserDetailController>(c => c.List(null)))");
+
+            var data = {
+                username: $("input[name=username]").val()
+            };
+
+            var callback = function (response) {
+                $("div.list").html(response);
+            };
+
+            $.App.get(url, { data: data, callback: callback });
+        };
+
+        populateList();
+    });
+</script>
+

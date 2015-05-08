@@ -1,0 +1,27 @@
+﻿@inherits MVCWeb.UI.ViewBase<MVCWeb.UI.Models.UserDetail.Edit>
+
+@{
+    Layout = "~/Views/Shared/_DialogLayout.cshtml";
+}
+
+@section Title
+{
+Edit User
+}
+
+
+<div>
+    @RenderServerMessage()
+</div>
+
+<div>
+    <label>User Name</label>
+    @Html.TextBoxFor(u => u.UserName)
+    <button type="submit">Save</button>
+</div>
+
+
+@section Footer
+{
+    <button type="button" class="btn btn-default closeDialog">Close</button>
+}

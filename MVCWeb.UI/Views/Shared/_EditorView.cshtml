@@ -1,0 +1,11 @@
+﻿@inherits MVCWeb.UI.ViewBase<object>
+@{
+    var routeValues = ViewContext.RouteData.Values;
+    var action = routeValues["action"].ToString();
+}
+
+<div>
+    <form method="POST" action="@Url.Action(action, routeValues)" enctype="multipart/form-data" class="ajax form-horizontal">
+        @Html.EditorForModel()
+    </form>
+</div>

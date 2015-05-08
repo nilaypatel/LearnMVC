@@ -1,0 +1,17 @@
+﻿@using MVCWeb.UI
+@using MVCWeb.UI.Controllers
+@using MVCWeb.UI.Models.GridToolbar
+
+@inherits ViewBase<Index>
+
+<div class="toolbar">
+    @{
+        if (Model.PagingInfo.TotalRecords > 0)
+        {
+            Html.RenderAction<GridToolbarController>(c => c.Pagination(Model.PagingInfo));
+        }   
+    }
+    
+    @Html.HiddenFor(m => m.CallbackUrl, new { @class = "callback" })
+</div>
+

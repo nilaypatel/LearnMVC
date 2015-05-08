@@ -1,0 +1,5 @@
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.Framework\bin\Debug\MyApplication.Framework.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.Framework\bin\Debug\MyApplication.Framework.pdb
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.Framework\obj\Debug\MyApplication.Framework.csprojResolveAssemblyReference.cache
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.Framework\obj\Debug\MyApplication.Framework.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.Framework\obj\Debug\MyApplication.Framework.pdb

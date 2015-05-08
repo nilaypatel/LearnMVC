@@ -1,0 +1,9 @@
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\bin\Debug\MyApplication.UnitOfWork.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\bin\Debug\MyApplication.UnitOfWork.pdb
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\obj\Debug\MyApplication.UnitOfWork.csprojResolveAssemblyReference.cache
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\obj\Debug\MyApplication.UnitOfWork.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\obj\Debug\MyApplication.UnitOfWork.pdb
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\bin\Debug\Iesi.Collections.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\bin\Debug\NHibernate.dll
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\bin\Debug\Iesi.Collections.xml
+D:\DemoProject\MVCTemplates\LearningTemplates\MyApplication.UnitOfWork\bin\Debug\NHibernate.xml

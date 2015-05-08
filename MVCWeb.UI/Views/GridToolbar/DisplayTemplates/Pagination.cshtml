@@ -1,0 +1,54 @@
+﻿@using MVCWeb.UI
+@using MVCWeb.UI.Models.GridToolbar
+
+@inherits ViewBase<Pagination>
+
+<div class="pagination">
+
+    @if (Model.TotalRecords != 0)
+    {       
+        <ul class="pagination">
+
+            <li><a class="page prev" href="javascript:void(0)">&laquo;</a></li>
+
+
+            @if (Model.PageNumbers[0] != 1)
+            {
+                <li><a class="page" href="javascript:void(0)">1</a></li>
+                <li>&hellip;</li>
+            }
+
+            @foreach (var page in Model.PageNumbers)
+            {
+                if (page != Model.CurrentPage)
+                {
+                    <li><a class="page" href="javascript:void(0)">@page</a></li>
+                }
+                else
+                {
+                    <li class="active"><a href="javascript:void(0)">@page</a></li>
+                }
+            }
+
+            @if (Model.HasMorePages)
+            {
+                <li>&hellip;</li>
+                <li><a class="page" href="javascript:void(0)">@Model.TotalPages</a></li>
+            }
+
+            <li><a class="page next" href="javascript:void(0)">&raquo;</a></li>
+
+        </ul>
+        
+        <span class="pull-right">
+            Displaying <span class="from">@Model.ShowingFrom</span> to <span class="to">@Model.ShowingTo</span> of <span>@Model.TotalRecords</span>
+        </span>
+                
+        @Html.HiddenFor(m => m.CurrentPage, new { @class = "current" })
+        @Html.HiddenFor(m => m.PageSize, new { @class = "pageSize" })
+        @Html.HiddenFor(m => m.TotalRecords, new { @class = "totalRecords" })
+        @Html.HiddenFor(m => m.TotalPages, new { @class = "totalPages" })
+
+    }
+
+</div>
